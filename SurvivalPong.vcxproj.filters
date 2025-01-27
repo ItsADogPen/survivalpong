@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\framework">
+      <UniqueIdentifier>{c5656461-dac7-4221-9bf7-53e8b26a81fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\framework">
+      <UniqueIdentifier>{e6fb2104-3103-452a-97b5-f966231c8ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\playobjects">
+      <UniqueIdentifier>{3c58c34a-2577-4949-b452-7f17da558a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\playobjects">
+      <UniqueIdentifier>{d67bde94-28b1-49f1-ab55-bccdb98ad33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Notes">
+      <UniqueIdentifier>{71555730-fa99-48b5-a6de-ee0148250282}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gamestate.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="updatedraw.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\playobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="qmanager.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ball.cpp">
+      <Filter>ソース ファイル\playobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="gametime.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="gamemath.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gamestate.h">
+      <Filter>ヘッダー ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="miscdefs.h">
+      <Filter>ヘッダー ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="updatedraw.h">
+      <Filter>ヘッダー ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\playobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="qmanager.h">
+      <Filter>ヘッダー ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ball.h">
+      <Filter>ヘッダー ファイル\playobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="refmanager.h">
+      <Filter>ヘッダー ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="gametime.h">
+      <Filter>ヘッダー ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="gamemath.h">
+      <Filter>ヘッダー ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobj.h">
+      <Filter>ヘッダー ファイル\playobjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ToDo.md">
+      <Filter>ソース ファイル\Notes</Filter>
+    </None>
+    <None Include="Changelog.md">
+      <Filter>ソース ファイル\Notes</Filter>
+    </None>
+  </ItemGroup>
+</Project>
